@@ -1,0 +1,24 @@
+.header-div {
+    height: 9vh;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+}
+
+.app-logo-image img {
+    width: 9vw;
+    height: 7vh;
+    margin: 10px;
+    animation: app-logo-spin infinite 8s linear;
+}
+
+.app-logo-text {
+    font-size: 2em;
+    color: aliceblue;
+}
+
+@keyframes app-logo-spin {
+    from {
+        transform: scaleX(-1);
+    }
+}
